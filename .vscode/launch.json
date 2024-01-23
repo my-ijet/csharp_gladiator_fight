@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "C#: gladiator_fight Debug",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/gladiator_fight.csproj"
+    },
+    {
+      "name": "C#: gladiator_fight",
+      "type": "DotNetWatch",
+      "request": "launch",
+      "project": "${workspaceFolder}/gladiator_fight.csproj",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DOTNET_WATCH_RESTART_ON_RUDE_EDIT": "true"
+      }
+    }
+  ]
+}
