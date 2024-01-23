@@ -142,9 +142,9 @@ class Gladiator
   public bool alive = true;
   public readonly string name = "";
   public string status = STATUSES[0];
-  public int health = 100;
+  public int health = 99;
   public int armor = Random.Shared.Next(80, 100);
-  public int damage = Random.Shared.Next(40, 60);
+  public int damage = Random.Shared.Next(40, 50);
   public int dodgeChanse = Random.Shared.Next(50, 90);
 
   public Gladiator()
